@@ -1,13 +1,15 @@
 <?php
 include("controleur/define.php");
-include("modele/connexion.php");
-// include("modele/lireDonnees.php");
-// include("modele/ecrireDonnees.php");
-// include("modele/suppDonnees.php");
-// include("modele/majDonnees.php");
-include("modele/secuLireDonnes.php");
-include ("modele/secuMajDonnees.php");
-deco($connexion);
+// include("modele/old/connexion.php");
+// include("modele/old/lireDonnees.php");
+// include("modele/old/ecrireDonnees.php");
+// include("modele/old/suppDonnees.php");
+// include("modele/old/majDonnees.php");
+// include("modele/old/secuLireDonnes.php");
+// include("modele/old/secuMajDonnees.php");
+include("modele/connexionPDO.php");
+include("modele/lireDonneesPDO.php");
+//deco($connexion);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
