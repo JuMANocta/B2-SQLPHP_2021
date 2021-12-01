@@ -8,7 +8,6 @@ include("controleur/define.php");
 // include("modele/old/secuLireDonnes.php");
 // include("modele/old/secuMajDonnees.php");
 include("modele/connexionPDO.php");
-include("modele/lireDonneesPDO.php");
 //deco($connexion);
 ?>
 <!DOCTYPE html>
