@@ -20,7 +20,7 @@
         <input type="submit" value="Envoyer">
     </form>
     <?php
-    include 'controler/define.php';
+    include 'controller/define.php';
     include 'model/connexion.php';
     include 'model/crud.php';
     $array_retour = lire();
